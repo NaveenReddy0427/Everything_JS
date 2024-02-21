@@ -29,3 +29,54 @@ if(score>99){
 }
 
 console.log(`your score is: ${score} and your life is: ${life} and your bullets are: ${bullets}`);
+
+
+// give rating star for the KFC 
+// star1= "not okay"
+// star2 = 'emm ok'
+// star3 = 'good'
+// star4 = 'great'
+// star5 = 'awesome'
+
+let star = "4"
+let starInt = parseInt(star)
+
+if(starInt == 1){
+    console.log("not okay");
+}else if(star == 2){
+    console.log("emm ok");
+}else if(star == 3){
+    console.log("good");
+}else if(star == 4){
+    console.log("great");
+}else if(star == 5){
+    console.log("awesome");
+}else{
+    console.log("i dont know what star rating you are giving");
+}
+
+
+
+// switch case 
+let star1 = "5"
+let starInt1 = parseInt(star1)
+switch(starInt1){
+    case 1:
+        console.log("not okay");
+        break;
+    case 2:
+        console.log("emm ok");
+        break;
+    case 3:
+        console.log("good");
+        break;
+    case 4:
+        console.log("great");
+        break;
+    case 5:
+        console.log("awesome");
+        break;
+    default:
+        console.log("i dont know what star rating you are giving for");
+}
+
