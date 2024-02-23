@@ -31,29 +31,7 @@ if(score>99){
 console.log(`your score is: ${score} and your life is: ${life} and your bullets are: ${bullets}`);
 
 
-// give rating star for the KFC 
-// star1= "not okay"
-// star2 = 'emm ok'
-// star3 = 'good'
-// star4 = 'great'
-// star5 = 'awesome'
 
-let star = "4"
-let starInt = parseInt(star)
-
-if(starInt == 1){
-    console.log("not okay");
-}else if(star == 2){
-    console.log("emm ok");
-}else if(star == 3){
-    console.log("good");
-}else if(star == 4){
-    console.log("great");
-}else if(star == 5){
-    console.log("awesome");
-}else{
-    console.log("i dont know what star rating you are giving");
-}
 
 
 
@@ -116,6 +94,7 @@ if(marks>=90){
 // min 3 characters between @ and .
 // after . only 2 or 3 characters should allow
 
+// using or operator 
 const email = prompt("enter an email: ")
 const emailLen = email.length;
 console.log(emailLen)
@@ -132,6 +111,8 @@ if(emailLen<11 || lastIndex-dotIndex <2 || lastIndex-dotIndex>3 || lastIndex-atI
     console.log("valid email");
 }
 
+
+// using and operator 
 function main(email) {
     let result;
     let emailLen = email.length;
