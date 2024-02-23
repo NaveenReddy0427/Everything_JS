@@ -31,14 +31,6 @@ if(score>99){
 console.log(`your score is: ${score} and your life is: ${life} and your bullets are: ${bullets}`);
 
 
-
-
-
-
-
-
-
-
 /* 
 Problem statement
 A grading system needs to be implemented for a school based on the marks obtained by the students on a test. Write a JS program to determine the grades of the students using conditional statements.
